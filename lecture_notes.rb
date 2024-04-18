@@ -1,8 +1,9 @@
-# ?Behavior, Properties & States
+# ? Behavior, Properties & States
 
 # class House
   # attr_reader :name, :width, :length, :ghost
-
+  
+  # Constructor
   # def initialize(name, ghost, width, length)
 
   #   # Instance methods
@@ -32,7 +33,7 @@
 # end
 
 
-# ?Inheritance
+# ? Inheritance
 # Subclasses inheret methods and instance variable from parents
 # But they can also define more variables/methods
 

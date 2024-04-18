@@ -1,3 +1,6 @@
+# frozen_string_literal: true
+
+# Mother Class of Animal
 class Animal
   attr_reader :name
   def initialize(name)
@@ -13,6 +16,7 @@ class Animal
   end
 end
 
+# Lion Class that inherits from Animal
 class Lion < Animal
   def talk
     "#{@name} roars"
@@ -23,12 +27,14 @@ class Lion < Animal
   end
 end
 
+# Meerkat Class that inherits from Animal
 class Meerkat < Animal
   def talk
     "#{@name} barks"
   end
 end
 
+# Warthog Class that inherits from Animal
 class Warthog < Animal
   def talk
     "#{@name} grunts"
@@ -48,4 +54,4 @@ animals.each do |animal|
   puts "- #{animal.talk} 💬"
 end
 
-puts simba.eats("pumbaa")
+puts simba.eats('pumbaa')
